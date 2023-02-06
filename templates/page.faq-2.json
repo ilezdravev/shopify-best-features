@@ -1,0 +1,271 @@
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "disabled": true,
+      "blocks": {
+        "ba0c8e30-c11a-4ab7-97c4-4acc1a053a3e": {
+          "type": "1",
+          "settings": {
+            "heading": "FAQ",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 20,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 20,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "ceaf2fff-8462-4040-83d5-7f7019d65b8d": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
+        }
+      },
+      "block_order": [
+        "ba0c8e30-c11a-4ab7-97c4-4acc1a053a3e",
+        "ceaf2fff-8462-4040-83d5-7f7019d65b8d"
+      ],
+      "settings": {
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 70,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "disabled": true,
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "166397764121da4855": {
+      "type": "top_heading",
+      "blocks": {
+        "16639776418261fcfa-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "FAQs"
+          }
+        },
+        "16639776418261fcfa-1": {
+          "type": "bl_subheading",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "We are here to help you!"
+          }
+        }
+      },
+      "block_order": [
+        "16639776418261fcfa-0",
+        "16639776418261fcfa-1"
+      ],
+      "settings": {
+        "design_heading": "8",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "60px,,,",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "165214825814e830e7": {
+      "type": "accordion",
+      "blocks": {
+        "1652148258305a99c1-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "WHEN WILL MY ORDER ARRIVE?",
+            "content": "<p>We generally deliver most orders in 7-14 working days. Sometimes it takes more because there might be occasional delay due to customs clearance processes, which are totally out of our control.<\/p>"
+          }
+        },
+        "1652148258305a99c1-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "HOW CAN I TRACK MY ORDER?",
+            "content": "<p>When your order is shipped, we will immediately send you an email containing a tracking number. Using this number you will be able to know where is your item and when it is going to arrive to you from our <a href=\"https:\/\/losdavos.com\/apps\/parcelpanel\" title=\"https:\/\/losdavos.com\/apps\/parcelpanel\"><strong>Track Your Order<\/strong><\/a> Page.<br\/>In case you did not receive this email, please email us at <a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>info@losdavos.com<\/strong><\/a>.<\/p>"
+          }
+        },
+        "1652148258305a99c1-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "WILL I HAVE TO PAY ANY DUTIES AND TAXES ON TOP OF MY ORDER?",
+            "content": "<p>This depends on the area you are ordering from. If you order from Europe, for instance, you will be charged with VTA duties. In other words, you will be liable for all import duties, customs and taxes.<br\/>Please be aware that Los Davos does not have any control for any duties, customs and taxes levied by the country your order is being shipped to. We cannot advise you what the cost will be as these charges can vary according to country.<br\/>Since these fees are not computed nor applied to orders by Los Davos, please contact your local customs office to find out more information if you are unsure of the charges.<\/p>"
+          }
+        },
+        "0c4e86da-f870-4d3c-abce-b988cae18d6c": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "WHAT IF THE ITEM I RECEIVED IS DAMAGED OR FAULTY?",
+            "content": "<p>We always work hard to ensure that all items are of the highest quality and guarantee to our customers a<br\/>great brand experience. However, if you have a concern with a faulty or damaged item, please email us<br\/>at <a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>info@losdavos.com<\/strong><\/a>, so we can urgently review the matter and find the best solution for you.<\/p>"
+          }
+        },
+        "cb973ab0-b192-4c97-b7ba-6b8acbf93e5f": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "WHAT IS YOUR RETURNS POLICY?",
+            "content": "<p>We offer 30-days after delivery hassle-free return for your items.<br\/>The item\/s must be in original condition. Item\/s must not have been used in any way. Unfortunately, we cannot accept any returns that do not meet above requirements.<br\/>Los Davos offers a full refund (item price excluding original shipping cost).<br\/>All returns must be sent to our warehouses in the United States and Europe. However, the address wher you should send the return will be sent to you when you contact us for a return at <a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>info@losdavos.com<\/strong><\/a>.<br\/><\/p>"
+          }
+        },
+        "f9fbcebb-a809-4cca-8806-c102d1de1c0b": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "HOW DO I REQUEST A RETURN?",
+            "content": "<p>To initiate a return, simply email us at <a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>info@losdavos.com<\/strong><\/a> using the same email address you used to order the item. We will send you the address you need to use to send back the items.<br\/>Once we receive the items, you will receive your refund (item price excluding original shipping cost).<br\/>Los Davos cannot be held liable for the loss of the items during the return process. We recommend using a registered post service to return goods, and keeping a record of the tracking details.<\/p>"
+          }
+        },
+        "9aa601e3-a39f-431e-aaa9-de35ae6945fb": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "DOES LOS DAVOS DELIVER WORLDWIDE?",
+            "content": "<p>Yes we ship worldwide. If you think that we don't ship to your country please contant us at <a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>info@losdavos.com<\/strong><\/a>.<\/p>"
+          }
+        },
+        "15f6d610-63c6-4503-8a7f-4a1774dcf9ed": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "HOW MUCH DOES DELIVERY COST?",
+            "content": "<p>(We deliver your items to most of the countries for <strong>Free<\/strong>). This depends on the item and the amount of money you spent on your purchases.<\/p>"
+          }
+        },
+        "6e69d523-e428-46ee-9574-e4bdb91255a1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "WHAT PAYMENT METHODS DOES LOS DAVOS ACCEPT?",
+            "content": "<p>Currently we accept (American Express, Apple Pay, Klarna-Pay-Later, Master, Visa, PayPal). If you would like to use a different payment method, our team will assist your request! Please contact us directly at <a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>info@losdavos.com<\/strong><\/a> to arrange the payment.<\/p>"
+          }
+        },
+        "112678c8-1182-4621-a866-a2640deff25e": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "IS IT SAFE TO PURCHASE ONLINE FROM LOS DAVOS STORE?",
+            "content": "<p>Absolutely! Los Davos uses variety of technological security methods to ensure a safe payment for our customers. In addition, our privacy policy indicates that we do not store any credit card details nor do we<br\/>share your personal information with any third party.<br\/>However, if you are still concerned with placing your order, please contact <a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>info@losdavos.com<\/strong><\/a> and we will<br\/>contact you regarding an alternative method to place your order!<br\/><\/p>"
+          }
+        },
+        "e685b15c-c4f2-40c4-a826-6a25d54b2c4e": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "HOW CAN I CONTACT YOU?",
+            "content": "<p>To reach our team you can use the 24\/7 Live Chat on the website, or email us at <a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>info@losdavos.com<\/strong><\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652148258305a99c1-0",
+        "1652148258305a99c1-1",
+        "1652148258305a99c1-2",
+        "0c4e86da-f870-4d3c-abce-b988cae18d6c",
+        "cb973ab0-b192-4c97-b7ba-6b8acbf93e5f",
+        "f9fbcebb-a809-4cca-8806-c102d1de1c0b",
+        "9aa601e3-a39f-431e-aaa9-de35ae6945fb",
+        "15f6d610-63c6-4503-8a7f-4a1774dcf9ed",
+        "6e69d523-e428-46ee-9574-e4bdb91255a1",
+        "112678c8-1182-4621-a866-a2640deff25e",
+        "e685b15c-c4f2-40c4-a826-6a25d54b2c4e"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#222222",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#222222",
+        "bg_content_cl": "#ffffff",
+        "content_align": "t4s-text-start",
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,80px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "sidebar-page",
+    "166397764121da4855",
+    "165214825814e830e7"
+  ]
+}

@@ -1,0 +1,750 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "brc-nav-product",
+      "settings": {
+        "breadcrumb_pr": true,
+        "back_next_pr": false,
+        "cl_bg": "#ffffff",
+        "cl_link": "#222222"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "txt_tr_pr": "uppercase",
+            "fnt_df_pr": "1",
+            "size_pr": 20,
+            "fw_pr": 600,
+            "lh_pr": 0,
+            "ls_pr": 0,
+            "pr_title_color": "#000000"
+          }
+        },
+        "price_review": {
+          "type": "price_review",
+          "settings": {
+            "price": "0",
+            "type_sale": "0",
+            "tax_ship": false,
+            "rating": false,
+            "review_liquid": "",
+            "size_price_pr": 15.5,
+            "fw_price_pr": 600,
+            "price_color": "#df0000",
+            "price_sale_color": "#0aa636"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color is-sw-cl__round",
+            "enable_fit_ratio_img": false,
+            "color_size": "medium",
+            "show_qty": false,
+            "enable_wishlist": true,
+            "enable_compare": false,
+            "btn_atc_full": true,
+            "pr_btn_round": 0,
+            "ani": "t4s-ani-shake",
+            "time": 8,
+            "btn_txt": "3",
+            "btn_icon": false,
+            "button_style": "default",
+            "button_color": "primary",
+            "button_effect": "default",
+            "show_dynamic_checkout": false,
+            "btn_txt2": "3",
+            "button_color_payment": "light",
+            "product_list": [
+
+            ],
+            "show_product_current": true,
+            "qty_val": "1",
+            "advance_label": "Choose style",
+            "advance_pr_list": [
+
+            ]
+          }
+        },
+        "26de924b-8981-4fac-850c-6bd430bd0e40": {
+          "type": "order",
+          "settings": {
+            "hide_pre": true,
+            "icon": "1",
+            "icon_name": "las la-truck",
+            "ani": "tada is--infinite",
+            "txt": "Delivery: [date_start] - [date_end]",
+            "ds": 6,
+            "de": 11,
+            "mode": "1",
+            "cut_day": "SAT,SUN",
+            "frm_day": "t44, DD t46",
+            "time": "16:00:00",
+            "hr": "hours",
+            "min": "minutes"
+          }
+        },
+        "01789e3b-d5d3-4653-a91a-3144bae52b25": {
+          "type": "inventory_qty",
+          "settings": {
+            "icon": "2",
+            "icon_name": "hourglass-half",
+            "ani": "none",
+            "stock": "2",
+            "qty": 10,
+            "total_items": 70,
+            "stock_from": 1,
+            "stock_to": 20,
+            "al": "center",
+            "mess": "HURRY! ONLY [stock_number] LEFT IN STOCK.",
+            "size": 14,
+            "progress": true,
+            "wbar": 80,
+            "stock_bg_process": "#00a500",
+            "bgten": "#17c939",
+            "stock_bg": "#df0000"
+          }
+        },
+        "5fa474c2-726b-45e7-b909-1b8afe229ca5": {
+          "type": "live_view",
+          "settings": {
+            "icon": "2",
+            "icon_name": "las la-eye",
+            "ani": "fadeIn is--infinite",
+            "min": 1,
+            "max": 150,
+            "time": 4,
+            "text": "[count] <span class=\"t4s-fwm\">People<\/span> are viewing this right now"
+          }
+        },
+        "46d63630-4323-46e6-815d-3b0a48ac116b": {
+          "type": "tab_html",
+          "settings": {
+            "title": "Product Details",
+            "content": "<p><strong>Materials: <\/strong>{{ product.metafields.custom.materials.value }}<\/p><p><strong>Weight: <\/strong>{{ product.metafields.custom.weight.value }}<\/p><p><strong>Dimensions: <\/strong>Check the detailed dimensions image.<\/p>",
+            "page": ""
+          }
+        },
+        "41c3a88c-20b2-491f-af78-87192390c57b": {
+          "type": "tab_html",
+          "settings": {
+            "title": "Jewelry Care",
+            "content": "<p>We strongly recommend removing your jewelry before engaging in any activities that can lead to contact with moisture or friction (ie: washing your hands, sleeping and showering) to maintain luster and prolong life.<\/p><p>For more details, check out our <a href=\"\/pages\/jewelry-care\" title=\"Jewelry Care\">Jewelry care page<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
+          "type": "store_pickup",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "93f008d7-21a2-4612-ba94-a3a77c3a987f": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "source": "1",
+            "icon": "2",
+            "icon_name": "las la-stopwatch",
+            "ani": "swing is--infinite",
+            "al": "start",
+            "mess": "Sale Ends in",
+            "size": 15,
+            "dayx": 0,
+            "stock_time": "8:00:00,16:00:00,23:59:59",
+            "loop": true,
+            "cdt_des": "3",
+            "cdt_size": "medium",
+            "box_bdr": 0,
+            "bd_width": 0,
+            "space_item": 50,
+            "space_item_mb": 15,
+            "number_cl": "#d40000",
+            "text_cl": "#d40000",
+            "border_cl": "#000000",
+            "bg_cl": "#000000"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "des": "2",
+            "text": "<p><strong>The Most Fun Cat Cave You Can Buy For Your Pets. 3-in-1 Guaranteed To Satisfy Your Cat's Interest.<\/strong><\/p>",
+            "length": 31,
+            "readm": false,
+            "readm_txt": "Read more"
+          }
+        },
+        "23551ebc-3be1-40d6-81b2-30f03478cccb": {
+          "type": "img",
+          "disabled": true,
+          "settings": {
+            "al": "center",
+            "mess": "Guaranteed Safe Checkout",
+            "size": 16,
+            "source": "1",
+            "wimg": 70,
+            "svg": "paypal,visa,maestro",
+            "height": 35
+          }
+        },
+        "6d812837-4a6a-43db-90e4-3bd84c89adfd": {
+          "type": "sold",
+          "disabled": true,
+          "settings": {
+            "icon": "2",
+            "icon_name": "lab la-gripfire",
+            "ani": "flash is--infinite",
+            "mins": 11,
+            "maxs": 60,
+            "mint": 1,
+            "maxt": 4,
+            "text": "[sold] sold in last [hour] hours"
+          }
+        },
+        "meta": {
+          "type": "meta",
+          "disabled": true,
+          "settings": {
+            "show_options": true,
+            "show_vendor": true,
+            "show_type": false,
+            "show_sku": false,
+            "show_barcode": false,
+            "show_available": true,
+            "show_category": false,
+            "show_tags": false
+          }
+        },
+        "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
+          "type": "tab_des",
+          "disabled": true,
+          "settings": {
+            "title": "Description"
+          }
+        },
+        "e36839f5-0847-44e2-97d3-2885597bd1ff": {
+          "type": "tab_add",
+          "disabled": true,
+          "settings": {
+            "title": "Additional Information"
+          }
+        },
+        "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c": {
+          "type": "tab_html",
+          "disabled": true,
+          "settings": {
+            "title": "Custom tab",
+            "content": "",
+            "page": "wash-care"
+          }
+        },
+        "56e67368-7424-4d73-8f14-dacdda4c59be": {
+          "type": "tab_rivui",
+          "disabled": true,
+          "settings": {
+            "title": "Reviews",
+            "review_liquid": ""
+          }
+        },
+        "94011ade-ec25-4d68-b37a-70660ede49dd": {
+          "type": "social",
+          "disabled": true,
+          "settings": {
+            "socials_align": "start",
+            "social_mode": "1",
+            "social_style": "1",
+            "social_size": "extra_small",
+            "bd_radius": 0,
+            "use_color_set": true,
+            "icon_cl": "#222222",
+            "bg_cl": "#f7a9e3",
+            "space_h_item": "10",
+            "space_v_item": "5",
+            "space_h_item_mb": "10",
+            "space_v_item_mb": "2"
+          }
+        },
+        "size_delivery_ask": {
+          "type": "size_delivery_ask",
+          "disabled": true,
+          "settings": {
+            "size_chart": "3",
+            "pos_sizeg": "1",
+            "sc_type": "1",
+            "page": "",
+            "size_ck": "",
+            "delivery": true,
+            "page_dr": "shipping-delivery",
+            "ask": true,
+            "phone": false
+          }
+        },
+        "7e1018ea-90fb-4eb1-a9e5-cebe4addcc7a": {
+          "type": "tab_html",
+          "disabled": true,
+          "settings": {
+            "title": "Why Donut Cat Bed?",
+            "content": "<p><strong>1- Claw Resistant Felt<\/strong><\/p><p>Durable & scratch resistant felt, stitched with nylon thread that can withstand energetic play sessions with even the most ornery of feline companions.<\/p><p><\/p><p><strong>2- High-quality Zipper<\/strong><\/p><p>Super easy to set up with high-quality zipper. Just unzip to open it up for easy cleaning or storage. It's that easy!<\/p><p><\/p><p><strong>3- Spacious Tunnel<\/strong><\/p><p>The inside is large enough for any adult cat to play, hide or sleep comfortably in.<\/p>",
+            "page": ""
+          }
+        },
+        "9a22265b-d898-4119-a67a-6ac98a71afc2": {
+          "type": "tab_html",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping & Return",
+            "content": "<p><strong>1- How much does delivery cost?<\/strong><\/p><p>(We deliver your items for <strong>free<\/strong>). This depends on the item and the amount of money you spent on your purchases. However, in the shipping page you can see the details about the shipping processes and costs.<\/p><p><\/p><p><strong>2- When will my order arrive?<\/strong><\/p><p>Shipping and delivery is made easy at snoobydooby.com.<br\/>When you order your item, expect to receive the package within 10 - 21 working days after your order is<br\/>received.<br\/>We ship your order via first class shipping carrier. We have collaborated with variety of shipping companies<br\/>to guarantee reaching our customers easily.<br\/>Do not hesitate to contact us, if you have any issue with delivery at:<br\/>snoobydoobyy@gmail.com.<\/p><p><\/p><p><strong>3- How can I track my order?<\/strong><\/p><p>When your order is shipped, we will immediately send you an email containing a tracking number. Using this<br\/>number you will be able to know where is your item and when it is going to arrive to you.<br\/>In case you did not receive this email, please email us at snoobydoobyy@gmail.com.<\/p><p><\/p><p><strong>4- Does snoobydooby.com deliver worldwide?<\/strong><\/p><p>currently, we deliver to (USA, UK, CA, AU). We have collaborated with variety of shipping<br\/>companies to guarantee reaching our customers easily.<\/p><p><\/p><p><strong>5- What If My Order Arrives Damaged, Or There Is A Fault?<\/strong><\/p><p>Whilst we hope this never happens, if you do receive a damaged item, or have a manufacturing fault occur,<br\/>please contact us immediately at snoobydoobyy@gmail.com<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price_review",
+        "form",
+        "26de924b-8981-4fac-850c-6bd430bd0e40",
+        "01789e3b-d5d3-4653-a91a-3144bae52b25",
+        "5fa474c2-726b-45e7-b909-1b8afe229ca5",
+        "46d63630-4323-46e6-815d-3b0a48ac116b",
+        "41c3a88c-20b2-491f-af78-87192390c57b",
+        "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3",
+        "93f008d7-21a2-4612-ba94-a3a77c3a987f",
+        "description",
+        "23551ebc-3be1-40d6-81b2-30f03478cccb",
+        "6d812837-4a6a-43db-90e4-3bd84c89adfd",
+        "meta",
+        "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
+        "e36839f5-0847-44e2-97d3-2885597bd1ff",
+        "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c",
+        "56e67368-7424-4d73-8f14-dacdda4c59be",
+        "94011ade-ec25-4d68-b37a-70660ede49dd",
+        "size_delivery_ask",
+        "7e1018ea-90fb-4eb1-a9e5-cebe4addcc7a",
+        "9a22265b-d898-4119-a67a-6ac98a71afc2"
+      ],
+      "settings": {
+        "pr_layout": "wide",
+        "enable_sticky_info": true,
+        "media_layout": "two_columns",
+        "media_size": "large",
+        "thumb_lr_size": "medium",
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "main_click": "none",
+        "zoom_tp": "inner",
+        "enable_zoom_icon": false,
+        "enable_zoom_click_mb": true,
+        "enable_video_looping": true,
+        "enable_video_muting": true,
+        "enable_video_autoplaying": true,
+        "eff": "slide",
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "default",
+        "btn_shape": "round",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "tabs_design": "accordion",
+        "tabs_design_mb": "tab",
+        "tabs_position": "inner",
+        "enable_first_tab": false,
+        "tabs_layout": "tab",
+        "bg": "#f6f6f8",
+        "bg_mb": "#ffffff",
+        "product_list": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}",
+        "sticky_mode": "2",
+        "sticky_show": "2",
+        "ani": "t4s-ani-shake",
+        "time": 5
+      }
+    },
+    "ff2c1899-a353-4455-96ae-01efbbfc3add": {
+      "type": "image_text",
+      "disabled": true,
+      "blocks": {
+        "template--14650929184845__ff2c1899-a353-4455-96ae-01efbbfc3add-167505872251969b56-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Get Inspired",
+            "text": "",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "template--14650929184845__ff2c1899-a353-4455-96ae-01efbbfc3add-167505872251969b56-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/3_8dc89e4e-b696-4676-8758-61b367402030.jpg",
+            "image2": "shopify:\/\/shop_images\/4_8c4b153e-c298-4448-b48e-1d94e3685bce.jpg",
+            "image3": "shopify:\/\/shop_images\/123121_a43c6720-4c25-4b33-9416-27f27b918c22.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14650929184845__ff2c1899-a353-4455-96ae-01efbbfc3add-167505872251969b56-1",
+        "template--14650929184845__ff2c1899-a353-4455-96ae-01efbbfc3add-167505872251969b56-0"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "52af041c-9785-480f-918c-399cdf39529f": {
+      "type": "image-gallery",
+      "disabled": true,
+      "blocks": {
+        "fdb71e11-d1c3-4019-934e-2f78fccf4914": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hth.jpg",
+            "link": ""
+          }
+        },
+        "c6c18d65-ca23-46a7-982a-35c61b18a876": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "fdb71e11-d1c3-4019-934e-2f78fccf4914",
+        "c6c18d65-ca23-46a7-982a-35c61b18a876"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "Get Inspired",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 9,
+        "layout_des": "2",
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_self",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "loop": false,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": true,
+        "dot_owl": "elessi",
+        "dots_cl": "primary",
+        "dots_round": true,
+        "dots_space": 10,
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "30px,,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "sidebar": {
+      "type": "sidebar-product",
+      "disabled": true,
+      "blocks": {
+        "f01b181b-62ee-4735-8e25-32cb71ccfaba": {
+          "type": "category",
+          "settings": {
+            "title_category": "Product Categories",
+            "cat_source": "1",
+            "cat_link_list": "",
+            "count": true
+          }
+        },
+        "f65f464b-9487-43be-9c91-8688a098bb6f": {
+          "type": "collection",
+          "settings": {
+            "title_fea_pr": "Sale Products",
+            "collection": "frontpage",
+            "limit_pr": 5,
+            "image_ratio": "t4s_ratioadapt",
+            "image_size": "t4s_cover",
+            "image_position": "t4s_position_8"
+          }
+        },
+        "83340bb8-58d2-4148-89e2-a4c7a01cf792": {
+          "type": "instagram",
+          "settings": {
+            "title_ins": "Instagram",
+            "mode": "2",
+            "acc": "",
+            "limit": 12,
+            "open_link": "_blank",
+            "round": 0,
+            "col_dk": "3",
+            "space_item": "6"
+          }
+        },
+        "9ce9ded8-1cef-4e32-b98b-47364ffa328c": {
+          "type": "shipping",
+          "settings": {
+            "title": "Shipping & Delivery",
+            "shipping_1": "las la-truck,FREE SHIPPING,Free shipping for all US order",
+            "shipping_2": "las la-headset,SUPPORT 24\/7,We support 24 hours a day",
+            "shipping_3": "las la-exchange-alt,30 DAYS RETURN,You have 30 days to return",
+            "shipping_4": "",
+            "shipping_5": "",
+            "shipping_6": ""
+          }
+        },
+        "4a9c6ae8-f3b4-4192-a6d1-82d01670bce6": {
+          "type": "image",
+          "settings": {
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "date": "2022\/12\/26",
+            "content_align": "center",
+            "cdt_des": "2",
+            "countdown_pos": "2",
+            "cdt_size": "medium",
+            "box_bdr": 0,
+            "bd_width": 0,
+            "space_item": 10,
+            "number_cl": "#ffffff",
+            "text_cl": "#ffffff",
+            "border_cl": "#000000",
+            "bg_cl": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "f01b181b-62ee-4735-8e25-32cb71ccfaba",
+        "f65f464b-9487-43be-9c91-8688a098bb6f",
+        "83340bb8-58d2-4148-89e2-a4c7a01cf792",
+        "9ce9ded8-1cef-4e32-b98b-47364ffa328c",
+        "4a9c6ae8-f3b4-4192-a6d1-82d01670bce6"
+      ],
+      "settings": {
+        "enable_drawer": true,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "alireviews-section-1675125958969": {
+      "type": "apps",
+      "blocks": {
+        "alireviews-block-1675125958969": {
+          "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "settings": {
+            "name": "Reviews",
+            "vertical_alignment": "2",
+            "rating_color": "#ffa000",
+            "section_color": "#ffffff",
+            "primary_text_color": "#1f1f1f"
+          }
+        }
+      },
+      "block_order": [
+        "alireviews-block-1675125958969"
+      ],
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show": true,
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "Bought Together",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 10,
+        "product_des": "3",
+        "show_vendor": false,
+        "use_cdt": false,
+        "limit": 16,
+        "display_type": "1",
+        "image_ratio": "ratio1_1",
+        "image_size": "nt_cover",
+        "image_position": "8",
+        "content_align": "default",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": false,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "1",
+        "btn_owl": "simple",
+        "btn_shape": "none",
+        "btn_cl": "primary",
+        "btn_size": "large",
+        "btn_hidden_mobile": false,
+        "nav_dot": true,
+        "dot_owl": "default",
+        "dots_cl": "primary",
+        "dots_round": true,
+        "dots_space": 9,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,100px,",
+        "pd": "",
+        "mg_mb": ",,60px,",
+        "pd_mb": ""
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently_viewed",
+      "disabled": true,
+      "settings": {
+        "show": true,
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Recently viewed products",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "limit": 14,
+        "sortby": "1",
+        "unavailable_prs": "show",
+        "image_ratio": "rationt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "outline",
+        "btn_shape": "round",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "75px,,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "ff2c1899-a353-4455-96ae-01efbbfc3add",
+    "52af041c-9785-480f-918c-399cdf39529f",
+    "sidebar",
+    "alireviews-section-1675125958969",
+    "product-recommendations",
+    "recently-viewed-products"
+  ]
+}

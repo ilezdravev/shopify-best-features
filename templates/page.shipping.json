@@ -1,0 +1,208 @@
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "disabled": true,
+      "blocks": {
+        "ba0c8e30-c11a-4ab7-97c4-4acc1a053a3e": {
+          "type": "1",
+          "settings": {
+            "heading": "FAQ",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 20,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 20,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "ceaf2fff-8462-4040-83d5-7f7019d65b8d": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
+        }
+      },
+      "block_order": [
+        "ba0c8e30-c11a-4ab7-97c4-4acc1a053a3e",
+        "ceaf2fff-8462-4040-83d5-7f7019d65b8d"
+      ],
+      "settings": {
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 70,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "disabled": true,
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "166397764121da4855": {
+      "type": "top_heading",
+      "blocks": {
+        "16639776418261fcfa-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Shipping & Delivery"
+          }
+        },
+        "16639776418261fcfa-1": {
+          "type": "bl_subheading",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "We are here to help you!"
+          }
+        }
+      },
+      "block_order": [
+        "16639776418261fcfa-0",
+        "16639776418261fcfa-1"
+      ],
+      "settings": {
+        "design_heading": "8",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "60px,,,",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "165214825814e830e7": {
+      "type": "accordion",
+      "blocks": {
+        "15f6d610-63c6-4503-8a7f-4a1774dcf9ed": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "HOW MUCH DOES DELIVERY COST?",
+            "content": "<p>(We deliver your items to most of the countries for <strong>Free<\/strong>). This depends on the item and the amount of money you spent on your purchases.<\/p>"
+          }
+        },
+        "1652148258305a99c1-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "WHEN WILL MY ORDER ARRIVE?",
+            "content": "<p>Shipping and delivery is made easy at Los Davos.<br\/>When you order your item, expect to receive the package within 7-14 working days after your order confirmation (Some countries may take more\/less than that).<br\/>We ship your order via first class shipping carrier. We have collaborated with variety of shipping companies to guarantee reaching our customers easily.<br\/>Do not hesitate to contact us, if you have any issue with delivery at <a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>info@losdavos.com<\/strong><\/a>.<br\/><\/p>"
+          }
+        },
+        "1652148258305a99c1-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "HOW CAN I TRACK MY ORDER?",
+            "content": "<p>When your order is shipped, we will immediately send you an email containing a tracking number. Using this number you will be able to know where is your item and when it is going to arrive to you from our <a href=\"https:\/\/losdavos.com\/apps\/parcelpanel\" title=\"https:\/\/losdavos.com\/apps\/parcelpanel\"><strong>Track Your Order<\/strong><\/a> Page.<br\/>In case you did not receive this email, please email us at <a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>info@losdavos.com<\/strong><\/a>.<\/p>"
+          }
+        },
+        "9aa601e3-a39f-431e-aaa9-de35ae6945fb": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "DOES LOS DAVOS DELIVER WORLDWIDE?",
+            "content": "<p>Yes we ship worldwide. If you think that we don't ship to your country please contant us at <a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>info@losdavos.com<\/strong><\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "15f6d610-63c6-4503-8a7f-4a1774dcf9ed",
+        "1652148258305a99c1-0",
+        "1652148258305a99c1-1",
+        "9aa601e3-a39f-431e-aaa9-de35ae6945fb"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#222222",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#000000",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#222222",
+        "bg_content_cl": "#ffffff",
+        "content_align": "t4s-text-start",
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,90px,",
+        "pd": "",
+        "mg_mb": ",,90px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "sidebar-page",
+    "166397764121da4855",
+    "165214825814e830e7"
+  ]
+}

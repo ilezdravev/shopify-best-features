@@ -1,0 +1,363 @@
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "disabled": true,
+      "blocks": {
+        "24974d0e-fd21-4730-b487-3179373420d1": {
+          "type": "1",
+          "settings": {
+            "heading": "",
+            "fontf": "1",
+            "text_cl": "#000000",
+            "text_fs": 33,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 30,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        },
+        "28194d99-c4cd-4eb2-9f35-5533e2f4be42": {
+          "type": "4",
+          "settings": {
+            "design_des": "show_all",
+            "length": 10,
+            "view_more": false,
+            "viewm_txt": "View more",
+            "fontf": "2",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "24974d0e-fd21-4730-b487-3179373420d1",
+        "28194d99-c4cd-4eb2-9f35-5533e2f4be42"
+      ],
+      "settings": {
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#ffffff",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,90px,",
+        "pd": "",
+        "mg_mb": ",,90px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "disabled": true,
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "db289846-22bf-494b-a71a-3293c9fd4cc4": {
+      "type": "top_heading",
+      "disabled": true,
+      "blocks": {
+        "template--14650929053773__db289846-22bf-494b-a71a-3293c9fd4cc4-1674943751d341d0b6-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "HOW TO TAKE CARE OF YOUR JEWELRY"
+          }
+        },
+        "template--14650929053773__db289846-22bf-494b-a71a-3293c9fd4cc4-1674943751d341d0b6-1": {
+          "type": "bl_subheading",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Best theme shopify"
+          }
+        }
+      },
+      "block_order": [
+        "template--14650929053773__db289846-22bf-494b-a71a-3293c9fd4cc4-1674943751d341d0b6-0",
+        "template--14650929053773__db289846-22bf-494b-a71a-3293c9fd4cc4-1674943751d341d0b6-1"
+      ],
+      "settings": {
+        "design_heading": "4",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "30px,,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "16f7e224-7bae-418c-966f-3857cb324ff2": {
+      "type": "top_heading",
+      "disabled": true,
+      "blocks": {
+        "template--14650929053773__16f7e224-7bae-418c-966f-3857cb324ff2-1674943751d341d0b6-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Our materials"
+          }
+        },
+        "template--14650929053773__16f7e224-7bae-418c-966f-3857cb324ff2-1674943751d341d0b6-1": {
+          "type": "bl_subheading",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Best theme shopify"
+          }
+        }
+      },
+      "block_order": [
+        "template--14650929053773__16f7e224-7bae-418c-966f-3857cb324ff2-1674943751d341d0b6-0",
+        "template--14650929053773__16f7e224-7bae-418c-966f-3857cb324ff2-1674943751d341d0b6-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,30px,",
+        "pd": "",
+        "mg_mb": ",,20px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "5c90e128-49c4-4524-a988-4999a4abf5c6": {
+      "type": "image_text",
+      "disabled": true,
+      "blocks": {
+        "template--14650929053773__5c90e128-49c4-4524-a988-4999a4abf5c6-1674943778f013ae64-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/gold_32ffcc88-8a31-483d-a4f9-2cd872e21245.jpg",
+            "col_dk": "6",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "template--14650929053773__5c90e128-49c4-4524-a988-4999a4abf5c6-1674943778f013ae64-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<p><strong>Your gold-plated pieces will shine for longer with the right care and attention.<\/strong><\/p><p>Gently rub your gold-plated jewelry with a soft jewelry cloth to restore its shine. After every use, clean your jewelry with a cotton ball or a very soft cloth to remove any dust and dirt. Plated pieces can be prone to oxidation, so we recommend removing before you swim, shower, or apply lotion, makeup, or perfume. To minimize scratches, store your piece in your Los Davos box or in a separate compartment in your jewelry box.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#000000",
+            "des_color": "#000000",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_self",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--14650929053773__5c90e128-49c4-4524-a988-4999a4abf5c6-1674943778f013ae64-0",
+        "template--14650929053773__5c90e128-49c4-4524-a988-4999a4abf5c6-1674943778f013ae64-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,90px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "f0f625d4-554d-46b0-9d1b-85ac249beb71": {
+      "type": "image_text",
+      "disabled": true,
+      "blocks": {
+        "template--14650929053773__f0f625d4-554d-46b0-9d1b-85ac249beb71-1674943778f013ae64-0": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/silver_4aa0f853-444c-4d1c-a203-182db50bc192.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "template--14650929053773__f0f625d4-554d-46b0-9d1b-85ac249beb71-1674943778f013ae64-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<p><strong>Chosen for its strength and beauty, sterling silver can give you a lifetime of gleam, or cultivate a lovely patina all on its own.<\/strong><\/p><p>Avoid exposing your sterling silver piece to chlorinated water and to cleaning products that contain bleach. Use a soft cloth to clean your silver piece. To minimize scratches and nicks, store it in your Los Davos box or in a separate compartment in your jewelry box.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#000000",
+            "des_color": "#000000",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_self",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--14650929053773__f0f625d4-554d-46b0-9d1b-85ac249beb71-1674943778f013ae64-0",
+        "template--14650929053773__f0f625d4-554d-46b0-9d1b-85ac249beb71-1674943778f013ae64-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,90px,",
+        "pd": "",
+        "mg_mb": ",,90px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "sidebar-page",
+    "db289846-22bf-494b-a71a-3293c9fd4cc4",
+    "16f7e224-7bae-418c-966f-3857cb324ff2",
+    "5c90e128-49c4-4524-a988-4999a4abf5c6",
+    "f0f625d4-554d-46b0-9d1b-85ac249beb71"
+  ]
+}

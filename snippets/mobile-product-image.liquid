@@ -1,0 +1,108 @@
+{% comment %} <div class="t4s-product-img t4s_ratio" {{imgatt}}style="--aspect-ratioapt: {{image.aspect_ratio | default: 1}}">
+    <img data-pr-img class="t4s-product-main-img lazyloadt4s" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900]" data-optimumx="1.5" data-sizes="auto" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+    <span class="lazyloadt4s-loader"></span>
+    <div data-replace-img2></div>
+    <noscript><img class="t4s-product-main-img" loading="lazy" src="{{ image | image_url: width: 600 }}"  alt="{{ image.alt | escape }}"></noscript>
+</div> {% endcomment %}
+<style>
+    .mobile-show .t4s-btn-filter{
+      background-color: transparent;
+    }
+    .mobile-show .t4s-btn-filter:hover{
+      background-color: transparent;
+    color: black;
+    }
+    .mobile-show body{
+      background: gray
+    }
+    .mobile-show{
+      display: none;
+    }
+    .t4s-product .t4s-product-inner::before{
+      content : unset
+    }
+    .slick-arrow{
+      display: none
+    }
+    .mobile-show .t4s-full-width-link.is--href-replaced{
+      display: none;
+    }
+    @media (max-width: 767px){
+      .desktop-show{
+        display: none;
+      }
+      .position-fixed .t4s-product-btns{
+        top: 50px;
+        height: max-content;
+      }
+      .t4s-product-btns2{
+        top: 7px;
+        height: max-content;
+      }
+      .mobile-show{
+        display: block;
+      }
+      .mobile-show img{
+        opacity: 1 !important
+        }
+        .mobile-show .slick-dotted.slick-slider{
+            margin: 0px;
+        }
+         .mobile-show .slick-dotted.s .mobile-show lick-slider{
+            margin-bottom: 0px
+        }
+         .mobile-show .slick-dots{
+            bottom: 5px;
+            width: max-content;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 4
+        }
+         .mobile-show .slick-dots li button{
+            border: 1px solid gray;
+            background-color: white;
+            border-radius: 50%;
+            width: 5px;
+            height: 5px;
+            margin:0px; 
+            padding: 3px
+        }
+         .mobile-show .slick-dots li{
+            display: inline-block;
+            max-width: max-content; 
+        }
+         .mobile-show .slick-dots li button:before{
+            content:unset;
+        }
+         .mobile-show .slick-active button{
+            background-color: gray !important;
+        }
+
+    }
+  </style>
+
+{%- if flag -%}
+  <div class="desktop-show">
+    <div class="t4s-product-img t4s_ratio" {{imgatt}}style="--aspect-ratioapt: {{image.aspect_ratio | default: 1}}">
+        <img data-pr-img class="t4s-product-main-img lazyloadt4s" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900]" data-optimumx="1.5" data-sizes="auto" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+        <span class="lazyloadt4s-loader"></span>
+        <div data-replace-img2></div>
+        <noscript><img class="t4s-product-main-img" loading="lazy" src="{{ image | image_url: width: 600 }}"  alt="{{ image.alt | escape }}"></noscript>
+    </div> 
+</div>
+<div class="mobile-show image-slider image-click-link">
+    <div class="t4s-product-img t4s_ratio " {{imgatt}}style="--aspect-ratioapt: {{image.aspect_ratio | default: 1}}">
+        <img data-pr-img class="t4s-product-main-img lazyloadt4s" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900]" data-optimumx="1.5" data-sizes="auto" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+    </div>
+    <div class="t4s-product-img t4s_ratio" {{imgatt}}style="--aspect-ratioapt: {{image.aspect_ratio | default: 1}}">
+        <div data-replace-img2></div>
+    </div>
+</div>
+{% else %}
+<div class="t4s-product-img t4s_ratio" {{imgatt}}style="--aspect-ratioapt: {{image.aspect_ratio | default: 1}}">
+  <img data-pr-img class="t4s-product-main-img lazyloadt4s" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900]" data-optimumx="1.5" data-sizes="auto" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+  <span class="lazyloadt4s-loader"></span>
+  <div data-replace-img2></div>
+  <noscript><img class="t4s-product-main-img" loading="lazy" src="{{ image | image_url: width: 600 }}"  alt="{{ image.alt | escape }}"></noscript>
+</div>
+{%- endif -%}

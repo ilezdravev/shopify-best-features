@@ -1,22 +1,16 @@
 
 
-let imgInterval = setInterval(() => {
-  if(document.querySelector('.mobile-show.image-slider')){
-    clearTimeout(imgInterval);
-    $('.mobile-show.image-slider').each(function(){
-      $(this).slick({
-          // autoplay:true,
-          arrows: true,
-          draggable: true,
-          drag: true,
-          dots: true,    //       infinite: true,
-          speed: 200,
-          slidesToShow: 1,
-      });
-    })
-  }
-	
-}, 100);
+$('.mobile-show.image-slider').each(function(){
+  $(this).slick({
+      // autoplay:true,
+      arrows: true,
+      draggable: true,
+      drag: true,
+      dots: true,    //       infinite: true,
+      speed: 200,
+      slidesToShow: 1,
+  });
+})
 
 $(document).on('click','.size-popup-button',function(){
   $('#shopify-section-header-inline').addClass('layout-lower');
@@ -35,5 +29,7 @@ $(document).on('click','.mobile-show.desc-heading',function(e){
   $(e.target).next().slideToggle();
 })
 $(document).on('click','.image-click-link',function(e){
-  window.location.href = $(e.target).parents('.mobile-show').find('.is--href-replaced').attr('href');
+  if(!e.target.getAttribute('type') == 'button'){
+    window.location.href = $(e.target).parents('.mobile-show').find('.is--href-replaced').attr('href');
+  };
 })

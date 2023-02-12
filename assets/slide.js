@@ -28,6 +28,9 @@ $(document).on('click','.mobile-show.desc-heading',function(e){
   $(e.target).toggleClass('is_open');
   $(e.target).next().slideToggle();
 })
-$(document).on('click','.image-click-link',function(e){
-  window.location.href = $(e.target).parents('.mobile-show').find('.is--href-replaced').attr('href');
+$(document).on('click','[slider-item]',function(e){
+  
+  if(!$(e.target).hasClass('.slide-dot')){
+    window.location.href = $(e.target).parents('.mobile-show').find('.is--href-replaced').attr('href');
+  }
 })

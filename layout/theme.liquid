@@ -42,6 +42,8 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     <meta name="description" content="{{ page_description | default:shop.description | default: shop.name | escape }}">
     {{ 'slick.css' | asset_url | stylesheet_tag }}
     {{ 'slick-theme.css' | asset_url | stylesheet_tag }}
+    {{ 'sheve.min.css' | asset_url | stylesheet_tag }}
+
 
     {%- liquid 
       assign t_name = request.page_type
@@ -53,8 +55,9 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
     <script src="{{ 'slide.js' | asset_url }}" async="async"></script>
+    <script src="{{ 'sheve.min.js' | asset_url }}" async="async"></script>
+    
 
     {{ content_for_header }}
     {%- render 'head_assets',t_name:t_name,isRTL:isRTL -%}

@@ -18,6 +18,18 @@
     .mobile-show{
       display: none;
     }
+    .t4s-product.t4s-pr-grid{
+      width: 50%;
+    }
+    .t4s-product-wrapper{
+      width: 100%;
+    }
+    .t4s-product-wrapper .mobile-show{
+      width: 100%;
+    }
+    .t4s-product .t4s-product-inner{
+      width: 100%
+    }
     .t4s-product .t4s-product-inner::before{
       content : unset
     }
@@ -80,11 +92,35 @@
 
     }
   </style>
-<div class="mobile-show image-slider image-click-link">
+{% comment %} <div class="mobile-show image-slider image-click-link">
+  <div>
     <div class="t4s-product-img t4s_ratio " {{imgatt}}style="--aspect-ratioapt: {{image.aspect_ratio | default: 1}}">
-        <img data-pr-img class="t4s-product-main-img lazyloadt4s" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900]" data-optimumx="1.5" data-sizes="auto" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+      <img data-pr-img class="t4s-product-main-img lazyloadt4s" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900]" data-optimumx="1.5" data-sizes="auto" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
     </div>
     <div class="t4s-product-img t4s_ratio" {{imgatt}}style="--aspect-ratioapt: {{image.aspect_ratio | default: 1}}">
         <div data-replace-img2></div>
     </div>
-</div>
+  </div>
+</div> {% endcomment %}
+
+
+{% comment %} <div class="t4s-product-img t4s_ratio" {{imgatt}}style="--aspect-ratioapt: {{image.aspect_ratio | default: 1}}">
+    <img data-pr-img class="t4s-product-main-img lazyloadt4s" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900]" data-optimumx="1.5" data-sizes="auto" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+    <span class="lazyloadt4s-loader"></span>
+    <div data-replace-img2></div>
+    <noscript><img class="t4s-product-main-img" loading="lazy" src="{{ image | image_url: width: 600 }}"  alt="{{ image.alt | escape }}"></noscript>
+</div> {% endcomment %}
+
+<custom-slider class="image-click-link" style="margin: 0px" slider>
+  <div slider-container data-slide-speed='0.3' data-slide-count='1' data-img-fullwidth="true" data-slide-wrap='true'>
+    <div class="t4s-product-img t4s_ratio "  slider-item>
+        <img data-pr-img class="t4s-product-main-img lazyloadt4s" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900]" data-optimumx="1.5" data-sizes="auto" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+    </div>
+    <div class="t4s-product-img t4s_ratio" slider-item>
+        <div data-replace-img2></div>
+    </div>
+  </div>
+  <ul slide-dots></ul>
+</custom-slider>
+
+

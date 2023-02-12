@@ -13,6 +13,9 @@
         width: 50%;
         font-weight: 600;
     }
+    #size-guide .mobile-show{
+        display: none;
+    }
     #size-guide .pre-header.size-popup-close{
         display: inline-block;
         width: max-content;
@@ -87,8 +90,13 @@
             width: calc(100% - 40px );
             padding: 20px;
             overflow: scroll;
-            height: max-content;
-            margin: 20px auto;
+            max-height: 90%;
+        }
+        #size-guide .mobile-show{
+            display: block;
+        }
+        #size-guide .desktop-show{
+            display: none;
         }
         #size-guide .heading{
             font-size: 24px;
@@ -98,18 +106,19 @@
             margin-top: 15px;
             
         }
+       
         #size-guide .desc-heading{
             position: relative;
         }
         #size-guide .size-guide-popup{
             display: none;
-            display: block;
             padding-left: 20px;
             margin-top: 0px;
             
         }
         #size-guide .desc-heading.mobile-show{
             margin: 0px;
+            cursor: pointer
         }
         #size-guide .desc .wrap.mobile-show{
             border-bottom: 1px solid;

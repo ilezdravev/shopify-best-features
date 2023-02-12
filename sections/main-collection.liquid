@@ -279,7 +279,7 @@
                   <div class="t4s-lm-bar--progress t4s-pr t4s-oh"><span class="t4s-lm-bar--current t4s-pa t4s-l-0 t4s-r-0 t4s-t-0 t4s-b-0" style="width: {{current_pr_size | times:100.0 | divided_by: results_count}}%"></span></div>
                </div>
                {%- endif -%}
-                <a data-load-more {% if use_pagination == 'infinite' %} data-load-onscroll {% endif %}  href="{{ paginate.next.url }}" class="t4s-pr t4s-loadmore-btn t4s-btn-loading__svg t4s-btn t4s-btn-base t4s-btn-style-{{se_stts.button_style}} t4s-btn-size-{{se_stts.btns_size}} t4s-btn-icon-{{se_stts.btn_icon}} t4s-btn-color-{{se_stts.btns_cl}} {% if se_stts.button_style == 'default' or se_stts.button_style == 'outline'%}t4s-btn-effect-{{se_stts.button_effect}}{% endif %}">
+                <a  {% if use_pagination == 'infinite' %}  {% endif %}  href="{{ paginate.next.url }}" class="t4s-pr t4s-loadmore-btn t4s-btn-loading__svg t4s-btn t4s-btn-base t4s-btn-style-{{se_stts.button_style}} t4s-btn-size-{{se_stts.btns_size}} t4s-btn-icon-{{se_stts.btn_icon}} t4s-btn-color-{{se_stts.btns_cl}} {% if se_stts.button_style == 'default' or se_stts.button_style == 'outline'%}t4s-btn-effect-{{se_stts.button_effect}}{% endif %}">
                   <span class="t4s-btn-atc_text">{{ 'collections.pagination.load_more' | t }}</span> 
                   {% if se_stts.btn_icon %}
                     <svg class="t4s-btn-icon" viewBox="0 0 32 32"><path d="M 15 4 L 15 24.0625 L 8.21875 17.28125 L 6.78125 18.71875 L 15.28125 27.21875 L 16 27.90625 L 16.71875 27.21875 L 25.21875 18.71875 L 23.78125 17.28125 L 17 24.0625 L 17 4 Z"/></svg>

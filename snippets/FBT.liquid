@@ -19,7 +19,12 @@ assign current_variant_id = current_variant.id -%}
 {{ 'fbt.css' | asset_url | stylesheet_tag }}
 
 <div class="t4s-fbt__wrap t4s-container">
-   <h3 class="t4s-fbt__title">{{'products.fbt.title' | t}}</h3>
+   <script type='application/json'>
+      {{ products | json}}
+   </script>
+    
+   {% comment %} {{'products.fbt.title' | t}} {% endcomment %}
+   <h3 class="t4s-fbt__title">Make it a bundle!</h3>
    <div class="t4s-fbt__products">
    {%- form 'product', product, id: form_id, class:'t4s-fbt__frm', novalidate: 'novalidate', data-groups-pr-form:'' , data-type:'add-to-cart-form' -%}
       <div class="t4s-row t4s-align-items-center">

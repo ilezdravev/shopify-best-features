@@ -84,7 +84,6 @@ endif -%}
 <div class="t4s-product t4s-pr-grid t4s-pr-style3 t4s-pr-{{pid}} {{col}} t4s-col-item" data-product-options='{ "id":"{{pid}}","available":{{product.available}}, "handle":"{{product.handle}}", "isDefault": {{isDefault}}, "VariantFirstID": {{current_variant.id}}, "customBadge":{{arr_badge | json }}, "customBadgeHandle":{{arr_badge_handle | json }},"dateStart":{{product.created_at | date: "%s"}}, "compare_at_price":{{current_variant.compare_at_price | json}},"price":{{current_variant.price| json}}, "isPreoder":{{isPreoder}},"isExternal":{{isExternal}}{% if isExternal %},"external_title":{{external_title| json}},"external_link":"{{external_link| escape}}"{% endif %},"image2":{% if product.images[1] != blank %}{{product.images[1] | image_url: width: 1 | json }},"alt":{{product.images[1].alt | escape | json }}{% else %}false{% endif %},"isGrouped":{{isGrouped}},"maxQuantity":{% if isDefault and isPreoder == false %}{{cur_qty}}{% else %}9999{% endif %} }'>
   <div class="t4s-product-wrapper">
     <div data-cacl-slide class="t4s-product-inner t4s-pr t4s-oh">
-      
       {%- if is_collection -%}
          <div class="desktop-show">
             {%- if image != blank %}{% render 'product-img',image:image,imgatt:imgatt %}{% endif -%}
@@ -108,7 +107,7 @@ endif -%}
          <div class="mobile-show">
             {%- if image != blank %}{% render 'mobile-product-image',flag: true,image:image,imgatt:imgatt %}{% endif -%}
             <div data-product-badge data-sort="sale,new,soldout,preOrder,custom" class="t4s-product-badge"></div>
-            <div class="position-fixed!!!!">
+            <div class="position-abs">
                <div class="t4s-product-btns">
                {%- if size_count > 0 and pr_size_pos == '1'%}{%- render 'product-size',size_variants:size_variants -%}{% endif -%}
                <div data-replace-atc data-has-qty></div>

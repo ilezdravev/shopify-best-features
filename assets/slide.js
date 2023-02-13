@@ -29,8 +29,8 @@ $(document).on('click','.mobile-show.desc-heading',function(e){
   $(e.target).next().slideToggle();
 })
 $(document).on('click','[slider-item]',function(e){
-  
   if(!$(e.target).hasClass('.slide-dot')){
+    e.preventDefault();
     window.location.href = $(e.target).parents('.mobile-show').find('.is--href-replaced').attr('href');
   }
 })

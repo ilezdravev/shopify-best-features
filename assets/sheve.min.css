@@ -1,9 +1,4 @@
-[slider]{
-	width: 100%;
-	position: relative;
-	box-sizing: border-box;
-	display: block;
-}
+
 /* [slider]{
 	display: block;
 	width: 100%;
@@ -12,12 +7,7 @@
 	overflow: hidden;
 	position: relative;
 }*/
-[slider-container]{
-	display: flex;
-	align-items: stretch;
-	justify-content: stretch;
-	top: 0px;
-}
+
 /*
 [slider-item] {
 	height: 100%;
@@ -27,6 +17,19 @@
 	text-align: center;
 	overflow: hidden;
 }*/
+/* /////// */
+/* [slider]{
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+}
+[slider-container]{
+	display: flex;
+	align-items: stretch;
+	justify-content: stretch;
+	top: 0px;
+}
 [slide-dots]{
 	display: flex;
 	list-style: none;
@@ -53,4 +56,4 @@
 }
 .slide-dot.active{
 	background-color: gray;
-}
+} */

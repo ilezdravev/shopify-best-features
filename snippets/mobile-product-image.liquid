@@ -4,7 +4,7 @@
     <div data-replace-img2></div>
     <noscript><img class="t4s-product-main-img" loading="lazy" src="{{ image | image_url: width: 600 }}"  alt="{{ image.alt | escape }}"></noscript>
 </div> {% endcomment %}
-<style>
+{% comment %} <style>
     .mobile-show .t4s-btn-filter{
       background-color: transparent;
     }
@@ -43,6 +43,13 @@
       .desktop-show{
         display: none;
       }
+      .mobile-title-head{
+      }
+      .mobile-show .position-abs{
+        position: absolute;
+        top: 100px;
+        right: 0px;
+      }
       .position-fixed .t4s-product-btns{
         top: 50px;
         height: max-content;
@@ -52,6 +59,7 @@
         height: max-content;
       }
       .mobile-show{
+        position: relative;
         display: block;
       }
       .mobile-show img{
@@ -91,7 +99,7 @@
         }
 
     }
-  </style>
+  </style> {% endcomment %}
 {% comment %} <div class="mobile-show image-slider image-click-link">
   <div>
     <div class="t4s-product-img t4s_ratio " {{imgatt}}style="--aspect-ratioapt: {{image.aspect_ratio | default: 1}}">

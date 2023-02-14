@@ -188,19 +188,16 @@
       "blocks": {
         "filter_id": {
           "type": "filter",
-          "settings": {
-          }
+          "settings": {}
         },
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
           "type": "layout",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "30594d23-d644-4653-9545-9ff769d2e6ab": {
           "type": "sortby",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -226,7 +223,7 @@
         "col_mb": "2",
         "space_h_item": "30",
         "space_v_item": "30",
-        "space_h_item_mb": "4",
+        "space_h_item_mb": "6",
         "space_v_item_mb": "30",
         "layout_des": "1",
         "use_pagination": "infinite",

@@ -1,4 +1,4 @@
-{% assign template_support = "product,index,page,collection" %}
+{% assign template_support = "product,index,collection" %}
 {% if template_support contains request.page_type %}
  
  
@@ -55,3 +55,10 @@ window.addEventListener("load", loadCSS(), false);
 
 
 {% endif %}
+<script type="text/javascript"> 
+    if (Shopify.designMode) {
+      const script = document.createElement("script");
+      script.src="https://cdn.alireviews.io/box/js/frontend/45/ali-save-theme-editor.js";
+      document.getElementsByTagName('head')[0].appendChild(script);
+    }
+</script>

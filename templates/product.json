@@ -60,28 +60,24 @@
             "show_dynamic_checkout": false,
             "btn_txt2": "3",
             "button_color_payment": "light",
-            "product_list": [
-
-            ],
+            "product_list": [],
             "show_product_current": true,
             "qty_val": "1",
             "advance_label": "Choose style",
-            "advance_pr_list": [
-
-            ]
+            "advance_pr_list": []
           }
         },
         "26de924b-8981-4fac-850c-6bd430bd0e40": {
           "type": "order",
           "settings": {
-            "hide_pre": true,
+            "hide_pre": false,
             "icon": "1",
             "icon_name": "las la-truck",
             "ani": "tada is--infinite",
             "txt": "Delivery: [date_start] - [date_end]",
             "ds": 6,
             "de": 11,
-            "mode": "1",
+            "mode": "2",
             "cut_day": "SAT,SUN",
             "frm_day": "t44, DD t46",
             "time": "16:00:00",
@@ -141,8 +137,7 @@
         "1e8c05dd-a0a8-4e7e-b9b1-6e3572ad24e3": {
           "type": "store_pickup",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "93f008d7-21a2-4612-ba94-a3a77c3a987f": {
           "type": "countdown",
@@ -610,13 +605,13 @@
         "sidebar_pd": 10
       }
     },
-    "alireviews-section-1675125958969": {
+    "alireviews-section-1676308624489": {
       "type": "apps",
       "blocks": {
-        "alireviews-block-1675125958969": {
+        "alireviews-block-1676308624489": {
           "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
           "settings": {
-            "name": "Reviews",
+            "name": "Review Box 1",
             "vertical_alignment": "2",
             "rating_color": "#ffa000",
             "section_color": "#ffffff",
@@ -625,10 +620,9 @@
         }
       },
       "block_order": [
-        "alireviews-block-1675125958969"
+        "alireviews-block-1676308624489"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "product-recommendations": {
       "type": "product-recommendations",
@@ -743,7 +737,7 @@
     "ff2c1899-a353-4455-96ae-01efbbfc3add",
     "52af041c-9785-480f-918c-399cdf39529f",
     "sidebar",
-    "alireviews-section-1675125958969",
+    "alireviews-section-1676308624489",
     "product-recommendations",
     "recently-viewed-products"
   ]

@@ -150,11 +150,12 @@ endif -%}
                     <h4 class="t4s-swatch__title"><span>{{option_name}}: <span data-current-value class="t4s-swatch__current">{{selected_value | default:choose_an_option }}</span></span>{% if name_sizeg == name_downcase %}{{html_sizeg}}{% endif %}</h4>
                     {% assign is_rings = false %}
                     {% for collection in product.collections%}
+                      {% comment %} <h1>{{ collection.title }}</h1> {% endcomment %}
                       {%if collection.title == 'rings' or collection.title == 'Rings' %}                    
                         {% assign is_rings = true%}
                       {% endif %}
                     {% endfor%}
-                    {% if is_rings %}
+                    {% if is_rings and option_name == 'Size'%}
                       <span class='size-popup-button'>Size Guide</span>
                     {% endif %}
                   </div>

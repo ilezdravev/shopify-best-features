@@ -1522,6 +1522,7 @@
           },
           "mb_nav-9": {
             "type": "cur",
+            "disabled": true,
             "settings": {
             }
           },
@@ -2587,12 +2588,6 @@
 
     ],
     "blocks": {
-      "6588702529468458379": {
-        "type": "shopify:\/\/apps\/ecomposer-landing-page-builder\/blocks\/app-embed\/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "8924079168617604943": {
         "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-popup\/bf2eea72-0400-4db1-8908-44b7418f9a88",
         "disabled": false,
